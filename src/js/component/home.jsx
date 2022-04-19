@@ -1,3 +1,6 @@
+//This will allow me to start npm in VS code
+//npm run start doesnt seem to work
+//npm start -- --port 8000
 import React from "react";
 
 //importing other componets

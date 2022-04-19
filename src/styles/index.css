@@ -43,16 +43,15 @@ ul>li {
 
 .page {
     color: white;
+    margin-left:0px;
+    right: 500px;
 }
 
 .logo {
     color: white;
-}
-
-.navbar-brand{
 
 }
 
 .top{
-    padding-left: 120px;
+    padding-left: 50px;
 }

@@ -6,7 +6,7 @@ const Jumbotron = () => {
 			<div className="row">
 				<div className="w-100 mx-auto ">
 					<div className="jumbotron">
-						<h1 className="display-4">Hello, world!</h1>
+						<h1 className="display-4">Save the Polar Bears</h1>
 						<p className="lead">
 							This is a simple hero unit, a simple jumbotron-style
 							component for calling extra attention to featured
