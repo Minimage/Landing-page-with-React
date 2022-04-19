@@ -13,10 +13,17 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="">
 			<NavBar></NavBar>
-			<Jumbotron></Jumbotron>
-			<Card></Card>
+			<div className="MyContent mx-auto">
+				<Jumbotron></Jumbotron>
+				<div className="d-flex justify-content-center">
+					<Card></Card>
+					<Card></Card>
+					<Card></Card>
+					<Card></Card>
+				</div>
+			</div>
 			<Footer></Footer>
 		</div>
 	);

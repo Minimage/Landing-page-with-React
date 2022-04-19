@@ -2,9 +2,9 @@ import React from "react";
 
 const Jumbotron = () => {
 	return (
-		<div className="container-fluid">
+		<div>
 			<div className="row">
-				<div className="col-7 mx-auto " style={{ color: "red" }}>
+				<div className="w-100 mx-auto ">
 					<div className="jumbotron">
 						<h1 className="display-4">Hello, world!</h1>
 						<p className="lead">

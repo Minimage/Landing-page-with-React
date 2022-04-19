@@ -10,3 +10,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+/* Adds space the NavBar li elements */
+ul>li {
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+
+/* MyBody holds the whole page and se */
+.MyContent {width: 60%;}
+
+.card {
+    width: 10;
+    color: red;    
+}
+
+.navbar-default {
+    background-color: rgba(52,58,64,255);
+    color: grey;
+    width: 100%;
+
+}
+
+.jumbotron{
+    background-color: rgba(234,236,240,255);
+    padding: 0px 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.page {
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+.navbar-brand{
+
+}
+
