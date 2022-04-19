@@ -2,48 +2,22 @@ import React from "react";
 
 const NavBar = () => {
 	return (
-		<div className=" ">
-			<nav className="navbar navbar-expand-lg navbar-dark bg-dark  ">
-				<a className="navbar-brand " href="#">
-					#PoloBears
-				</a>
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarText"
-					aria-controls="navbarText"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon"></span>
-				</button>
-				<div
-					className="collapse navbar-collapse d-flex justify-content-around"
-					id="navbarText">
-					<ul className="navbar-nav ">
-						<li className="nav-item active">
-							<a
-								className="nav-link page"
-								href="#"
-								style={{ color: "white" }}>
-								Home <span className="sr-only">(current)</span>
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Features
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Pricing
-							</a>
-						</li>
-					</ul>
-					<span className="navbar-text"></span>
+		<footer className="navbar-default navbar-fixed-bottom">
+			<div className="container-fluid">
+				<div className="row">
+					<div className="w-100">
+						<div className="d-flex justify-content-around w-75 top">
+							<p className="logo">#PolorBear</p>
+							<ul className="d-flex">
+								<li className="page">Icon1</li>
+								<li>Icon2</li>
+								<li>Icon3</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</footer>
 	);
 };
 
