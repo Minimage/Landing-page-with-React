@@ -2,8 +2,8 @@
 //npm run start doesnt seem to work
 //npm start -- --port 8000
 import React from "react";
-
-//importing other componets
+import propTypes from "prop-types";
+import logo from "../../img/img1.jpg";
 
 import Card from "./Card";
 import NavBar from "./NavBar";
@@ -14,17 +14,17 @@ import Footer from "./Footer";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
 	return (
 		<div className="">
 			<NavBar></NavBar>
 			<div className="MyContent mx-auto">
 				<Jumbotron></Jumbotron>
 				<div className="d-flex justify-content-center">
-					<Card></Card>
-					<Card></Card>
-					<Card></Card>
-					<Card></Card>
+					<Card image={rigoImage}></Card>
+					<Card image={logo}></Card>
+					<Card image={logo}></Card>
+					<Card image={logo}></Card>
 				</div>
 			</div>
 			<Footer></Footer>

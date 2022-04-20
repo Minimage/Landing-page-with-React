@@ -1,10 +1,13 @@
 import React from "react";
-import img1 from "../../img/waving-polarbear.jpeg/";
 
-const Card = () => {
+const Card = (props) => {
 	return (
 		<div className="p-2 mt-3">
-			<img className="card-img-top" src={img1} alt="Card image cap" />
+			<img
+				className="card-img-top"
+				src={props.image}
+				alt="Card image cap"
+			/>
 			<div className="card-body">
 				<h5 className="card-title">Card title</h5>
 				<p className="card-text">
