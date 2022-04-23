@@ -2,21 +2,21 @@ import React from "react";
 
 const Jumbotron = () => {
 	return (
-		<div>
+		<div className="mt-4 jumb">
 			<div className="row">
 				<div className="w-100 mx-auto ">
 					<div className="jumbotron">
 						<h1 className="display-4">Save the Polar Bears</h1>
 						<p className="lead">
-							This is a simple hero unit, a simple jumbotron-style
-							component for calling extra attention to featured
-							content or information.
+							By making this commitment to save the polar bears,
+							you are also contributing to saving the planet by
+							signle handedly obliterating Globle warming which
+							plays a hudge role in destroying their homes
 						</p>
 						<hr className="my-4" />
 						<p>
-							It uses utility classNamees for typography and
-							spacing to space content out within the larger
-							container.
+							Click below to learn how you can help make a change
+							today to become the hero of tomorrow
 						</p>
 						<p className="lead">
 							<a
