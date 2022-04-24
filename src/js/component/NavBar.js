@@ -14,7 +14,9 @@ export default function Navbar() {
 				</ul>
 			)}
 
-			<button className="btn">BTN</button>
+			<button onClick={() => {}} className="btn">
+				BTN
+			</button>
 		</nav>
 	);
 
