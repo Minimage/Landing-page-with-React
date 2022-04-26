@@ -6,7 +6,7 @@ const NavBar = () => {
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#">
-						Navbar
+						#PolarBear
 					</a>
 					<button
 						className="navbar-toggler"
