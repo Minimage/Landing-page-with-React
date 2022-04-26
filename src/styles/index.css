@@ -43,10 +43,7 @@ ul>li {
 /* MyBody holds the whole page and se */
 
 
-.card {
-    width: 10;
-    color: red;    
-}
+
 
 .navbar-default {
     background-color: rgba(52,58,64,255);
@@ -92,3 +89,8 @@ ul>li {
     color: white;
 }
 
+.carder{
+    border: lightgrey solid 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

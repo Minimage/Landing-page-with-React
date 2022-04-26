@@ -26,22 +26,30 @@ const Home = (props) => {
 					<Card
 						image={image1}
 						tittle={"Waving Bear"}
-						text={""}
+						text={
+							"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+						}
 						BtnText={"Go Somewhere"}></Card>
 					<Card
 						image={image2}
 						tittle={"Cuddle Bear"}
-						text={""}
+						text={
+							"Sed ut perspiciatis unde omnis iste natus error sit voluptatem  tempor incididunt ut doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo."
+						}
 						BtnText={"Go Somewhere"}></Card>
 					<Card
 						image={image3}
 						tittle={"Cute Bear"}
-						text={""}
+						text={
+							"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+						}
 						BtnText={"Go Somewhere"}></Card>
 					<Card
 						image={image4}
 						tittle={"Lonely Bear"}
-						text={""}
+						text={
+							"Perspiciatis unde omnis iste natus error sit voluptatem accusantium elit, sed do eiusmod tempor doloremque laudantium, totam rem aperiam, ea ipsa quae."
+						}
 						BtnText={"Go Somewhere"}></Card>
 				</div>
 			</div>
