@@ -34,7 +34,7 @@ const Home = (props) => {
 						image={image2}
 						tittle={"Cuddle Bear"}
 						text={
-							"Sed ut perspiciatis unde omnis iste natus error sit voluptatem  tempor incididunt ut doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo."
+							"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo."
 						}
 						BtnText={"Go Somewhere"}></Card>
 					<Card
@@ -48,7 +48,7 @@ const Home = (props) => {
 						image={image4}
 						tittle={"Lonely Bear"}
 						text={
-							"Perspiciatis unde omnis iste natus error sit voluptatem accusantium elit, sed do eiusmod tempor doloremque laudantium, totam rem aperiam, ea ipsa quae."
+							"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo."
 						}
 						BtnText={"Go Somewhere"}></Card>
 				</div>

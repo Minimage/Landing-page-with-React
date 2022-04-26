@@ -89,8 +89,7 @@ ul>li {
     color: white;
 }
 
-.carder{
+.card-body{
     border: lightgrey solid 1px;
-    margin-right: 10px;
-    margin-left: 10px;
+
 }
